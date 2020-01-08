@@ -18,7 +18,7 @@ function App() {
       <Main>
         <Route path="/" render={props => <Main {...props} STORE={STORE} />} />
         <Route path="/folder/:folderid" render={props => <Main {...props} STORE={STORE} />} />
-        <Route path="/note/:noteid" render={props => <Main {...props} STORE={store} />} />
+        <Route path="/note/:noteid" render={props => <Main {...props} STORE={STORE} />} />
       </Main>
     </div>
   );
